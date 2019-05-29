@@ -110,7 +110,7 @@ class Game extends React.Component {
       const desc = move ?
         'Go to move #' + move :
         'Go to game start';
-		if (move == 9)
+		if (move === 9)
 		{ 
 			done = 1; 
 		}
@@ -131,7 +131,7 @@ class Game extends React.Component {
       status = 'Winner: ' + winner;
     } else 
 	{
-		if (done == 1)
+		if (done === 1)
 		{ 
 			status = 'Tied Game !!'; 
 		} else 
