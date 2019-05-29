@@ -90,7 +90,7 @@ class Game extends React.Component {
       xIsNext: !this.state.xIsNext,
     }			  
 	);
-		alert(' // i = ' + i + ' // squares ' + squares);	  
+		//alert(' // i = ' + i + ' // squares ' + squares);	  
   }
   
    jumpTo(step) {
